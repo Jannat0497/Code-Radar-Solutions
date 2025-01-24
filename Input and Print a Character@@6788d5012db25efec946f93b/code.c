@@ -5,4 +5,3 @@ int main(){
     printf("You entered: %c",str);
     return 0;
 }
-}
