@@ -7,7 +7,7 @@ int main()
     scanf("%d",&a);
     scanf("%d",&b);
     scanf("%d",&c);
-    int avg=(a+b+c)/3.00;
+    int avg=(a+b+c)/3;
     printf("Average: %f",avg);
     return 0;
 }
