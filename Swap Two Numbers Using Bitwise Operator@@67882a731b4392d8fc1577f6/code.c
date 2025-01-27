@@ -5,7 +5,7 @@ int main(){
     a=a+b;
     b=a-b;
     a=a-b;
-    printf("%d\t",a);
-    printf("%d",b);
+    printf("%d %d",a,b);
+
     return 0;
 }
