@@ -3,7 +3,7 @@ int main(){
     int a;
     scanf("%d",&a);
 
-    for (i=2;a!=i;i++)
+    for (int i=2;a!=i;i++)
     {
         if (a%a==0 && a&1==0 && a%i!=0)
         printf("Prime");
