@@ -10,6 +10,6 @@ int main(){
     printf("Different Sign");
 
     else
-    print("Same Sign");
+    printf("Same Sign");
     return 0;
 }
