@@ -2,7 +2,8 @@
 int main(){
     int n;
     scanf("%d",&n);
-if (a>=1 && a<=12){
+    if (n>=1 && n<=12)
+    {
     switch(n)
     {
         case 1: 
@@ -57,5 +58,7 @@ if (a>=1 && a<=12){
         printf("Invalid month");
         break;
     }}
+    else
+    printf("Invalid Month");
     return 0;
 }
