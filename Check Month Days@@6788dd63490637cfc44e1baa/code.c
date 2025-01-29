@@ -2,10 +2,10 @@
 int main(){
     int n;
     scanf("%d",&n);
-
+if (a>=1 && a<=12){
     switch(n)
     {
-        case 1:
+        case 1: 
         printf("31");
         break;
 
@@ -52,7 +52,10 @@ int main(){
         case 12:
         printf("31");
         break;
-    
-    }
+        
+        default:
+        printf("Invalid month");
+        break;
+    }}
     return 0;
 }
