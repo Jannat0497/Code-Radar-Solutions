@@ -16,14 +16,20 @@ int main(){
         break;
 
         case '*':
-        result=a*b;
+        result = a*b;
         printf("%d",result);
         break;
 
         case '/':
-        result= a/b;
+        if(b!=0)
+        {
+        result = a/b;
         printf("%d",result);
-        break;
+        }
+        else
+        printf("error");
+    }
+    break;
 
         default:
         printf("error");
