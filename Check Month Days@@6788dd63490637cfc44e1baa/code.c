@@ -18,6 +18,9 @@ int main(){
         printf("30");
         break;
 
+        default:
+        printf("Invalid month");
+
     }}
     else
     printf("Invalid Month");
