@@ -6,33 +6,33 @@ int main(){
     scanf("%c",&ch);
     switch(ch){
         case '+':
-        result= a+b;
-        printf("%d",result);
-        break;
+            result= a+b;
+            printf("%d",result);
+            break;
 
         case '-':
-        result= a-b;
-        printf("%d",result);
-        break;
+            result= a-b;
+            printf("%d",result);
+            break;
 
         case '*':
-        result = a*b;
-        printf("%d",result);
-        break;
+            result = a*b;
+            printf("%d",result);
+            break;
 
         case '/':
         if (b!=0){
-        result = a/b;
-        printf("%d",result);
+            result = a/b;
+            printf("%d",result);
         }
         else{
-        printf("error");
+            printf("error");
         }
         break;
 
         default:
-        printf("error");
-        break;
+            printf("error");
+            break;
 
     }
 
