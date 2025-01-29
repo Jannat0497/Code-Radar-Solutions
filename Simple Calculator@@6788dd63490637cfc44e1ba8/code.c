@@ -21,19 +21,13 @@ int main(){
         break;
 
         case '/':
-        if(b!=0)
-        {
         result = a/b;
         printf("%d",result);
-        }
-        else
-        printf("error");
-    }
-    break;
+        break;
 
         default:
         printf("error");
-
+        break;
 
     }
 
