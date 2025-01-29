@@ -32,6 +32,10 @@ int main(){
         printf("Sunday");
         break;
 
+        default:
+        printf("Invalid");
+        break;
+
     }
     
     return 0;
