@@ -27,7 +27,9 @@ int main(){
         }
         else{
             printf("error");
+            return 1;
         }
+        printf("%d",result);
         break;
 
         default:
