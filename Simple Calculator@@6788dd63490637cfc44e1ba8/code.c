@@ -4,23 +4,22 @@ int main(){
     scanf("%d%d",&a,&b);
     char ch;
     scanf("%c",&ch);
-    switch(ch){
-        case '+':
+    if(ch == '+'){
             result= a+b;
             printf("%d",result);
-            break;
+    }  
 
-        case '-':
+    else if (ch =='-'){
             result= a-b;
             printf("%d",result);
-            break;
+    }
 
-        case '*':
+    else if(ch =='*'){
             result = a*b;
             printf("%d",result);
-            break;
+    }
 
-        case '/':
+    else if (ch =='/'){
         if (b!=0){
             result = a/b;
         }
@@ -29,13 +28,13 @@ int main(){
             return 1;
         }
         printf("%d",result);
-        break;
+        }
 
-        default:
+    else{
             printf("error");
-          
+    } 
 
-    }
+    
 
     return 0;
 
