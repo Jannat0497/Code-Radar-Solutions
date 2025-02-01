@@ -22,12 +22,8 @@ int main(){
     else if (ch =='/'){
         if (b!=0){
             result = a/b;
-        }
-        else{
-            printf("error");
-            return 1;
-        }
-        printf("%d",result);
+            printf("%d",result);
+            return 0;
         }
 
     else{
