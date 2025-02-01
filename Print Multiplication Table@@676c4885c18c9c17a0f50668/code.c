@@ -2,9 +2,9 @@
 int main(){
     int a,i,mul;
     scanf("%d",&a);
-    for (i=1,i<=10;i++){
-        
+    while(i<=10){
         printf("%d x %d = %d",a,i,a*i);
+        i++
     }
     return 0;
 }
