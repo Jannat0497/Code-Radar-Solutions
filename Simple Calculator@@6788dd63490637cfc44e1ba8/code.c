@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int a,b,result;
-    scanf("%lf%lf",&a,&b);
+    scanf("%d%d",&a,&b);
     char ch;
     scanf("%c",&ch);
     switch(ch){
@@ -23,7 +23,6 @@ int main(){
         case '/':
         if (b!=0){
             result = a/b;
-            printf("%d",result);
         }
         else{
             printf("error");
@@ -34,7 +33,7 @@ int main(){
 
         default:
             printf("error");
-            break;
+          
 
     }
 
