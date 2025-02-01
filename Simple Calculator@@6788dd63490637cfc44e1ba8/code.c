@@ -27,9 +27,8 @@ int main(){
         }
     }
 
-    else{
-            printf("error");
-    } 
+    
+    
 
     
 
