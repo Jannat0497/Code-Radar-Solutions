@@ -10,6 +10,7 @@ int main(){
         for(star=1;star=2*i-1;star++){
             printf("*");
         }
+        printf("\n");
     }
 
     return 0;
