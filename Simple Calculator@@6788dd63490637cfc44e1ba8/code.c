@@ -4,18 +4,18 @@ int main(){
     char ch;
     scanf("%f %f %c",&a,&b,&ch);
     if (ch =='+'){
-        int s=a+b;
+        int s = a+b;
         printf("%d",s);
     }
 
     else if( ch == '-'){
-        int s=a-b;
-        printf("%d",s);
+        int u=a-b;
+        printf("%d",u);
     }
 
     else if( ch =='*'){
-        int u=a*b;
-        printf("%d",u);
+        int m = a*b;
+        printf("%d",m);
     }
 
     else if(ch =='/'){
@@ -24,7 +24,7 @@ int main(){
         }
         else{
             float e = a/b;
-            int d=int(e);
+            int d =int(e);
             printf("%d",d);
         }
     }
