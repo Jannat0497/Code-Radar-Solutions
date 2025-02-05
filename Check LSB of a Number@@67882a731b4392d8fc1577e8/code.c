@@ -3,9 +3,11 @@ int main(){
     int x,i,mask;
     scanf("%d",x);
     mark=1<<(i-1);
-    if(x & mark)
+    if(x & mark){
     printf("Set");
-    else
+    }
+    else{
     printf("Not Set");
+    }
     return 0;
 }
