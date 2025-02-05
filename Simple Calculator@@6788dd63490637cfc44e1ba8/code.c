@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    int a,b;
-    float ch;
-    scanf("%d%d%c",&a,&b,&ch);
+    float a,b;
+    char ch;
+    scanf("%f %f %c",&a,&b,&ch);
     if (ch =='+'){
         int s=a+b;
         printf("%d",s);
@@ -14,8 +14,8 @@ int main(){
     }
 
     else if( ch =='*'){
-        int s=a*b;
-        printf("%d",s);
+        int u=a*b;
+        printf("%d",u);
     }
 
     else if(ch =='/'){
@@ -23,7 +23,7 @@ int main(){
             printf("error");
         }
         else{
-            float e=a/b;
+            float e = a/b;
             int d=int(e);
             printf("%d",d);
         }
