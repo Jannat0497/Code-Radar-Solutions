@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main(){
-    int num;
+    int num,mark;
     scanf("%d",num);
-    if(num & 1)
+    mark=1<<(i-1)
+    if(num & mark)
     printf("Set");
     else
     printf("Not Set");
