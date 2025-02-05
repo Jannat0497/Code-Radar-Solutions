@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int x,i,mask;
+    int x,i=1,mask;
     scanf("%d",x);
     mark=1<<(i-1);
     if(x & mark){
