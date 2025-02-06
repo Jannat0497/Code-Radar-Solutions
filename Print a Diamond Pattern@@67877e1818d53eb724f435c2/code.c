@@ -12,7 +12,15 @@ int main(){
             printf("*");
         }
     printf("\n");
-        
+    for(a=1;a<=d;a++){
+        for(b=1;b<=d-a;b++){
+            printf(" ");
+        }
+        for(c=n;c>2*i-1;k++){
+            printf("*");
+        }
+    }
+        printf("\n");
     }
     return 0;
 }
