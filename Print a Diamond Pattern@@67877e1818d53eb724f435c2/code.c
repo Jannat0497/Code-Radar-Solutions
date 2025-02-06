@@ -11,15 +11,15 @@ int main(){
         for (k=1;k<=2*i-1;k++){
             printf("*");
         }
-    printf("\n");
-    for(a=1;a<=d;a++){
+        printf("\n");
+    }
+    for(a=d-1;a>=1;a--){
         for(b=1;b<=d-a;b++){
             printf(" ");
         }
-        for(c=n;c>2*i-1;k++){
+        for(c=1;c>2*d-1;k++){
             printf("*");
         }
-    }
         printf("\n");
     }
     return 0;
