@@ -6,10 +6,8 @@ int main(){
     scanf("%d",&i);
     mark=1<<(i-1);
     if(x & mark){
-    printf("0");
+    printf("%d",mark);
     }
-    else{
-    printf("1");
-    }
+    
     return 0;
 }
