@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&x);
     scanf("%d",&i);
     mark=1<<(i-1);
-    if(x & mark){
+    if(x | mark){
     printf("1\n");
     }
     else{
