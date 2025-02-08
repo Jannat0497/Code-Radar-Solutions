@@ -5,10 +5,10 @@ int main(){
     scanf("%d",&i);
     mark=1<<(i-1);
     if(x & mark){
-    printf("Set");
+    printf("1");
     }
     else{
-    printf("Not Set");
+    printf("0");
     }
     return 0;
 }
