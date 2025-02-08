@@ -1,10 +1,10 @@
 #include <stdio.h>
-void fun(isPrime){
+void fun(num){
     if(num%2==0){
-        printf("1");
+        printf("1\n");
     }
     else{
-        printf("0");
+        printf("0\n");
     }
 }
 int main(){
