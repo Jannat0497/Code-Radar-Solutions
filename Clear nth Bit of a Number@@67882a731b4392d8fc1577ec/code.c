@@ -5,9 +5,8 @@ int main(){
     scanf("%d",&x);
     scanf("%d",&i);
     mark=1<<(i-1);
-    if(x & mark){
-    printf("%d",mark);
-    }
+    a=x & mark;
+    printf("%d",a);
     
     return 0;
 }
