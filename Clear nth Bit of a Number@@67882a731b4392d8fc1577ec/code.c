@@ -4,7 +4,7 @@ int main(){
     int x,i,mark,a;
     scanf("%d",&x);
     scanf("%d",&i);
-    mark=1<<(i-1);
+    mark=1<<(i);
     a=x & mark;
     printf("%d",a);
     
