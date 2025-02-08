@@ -1,5 +1,5 @@
 #include <stdio.h>
-void fun(num){
+void fun(int num){
     if(num%2==0){
         printf("1\n");
     }
@@ -13,7 +13,7 @@ int main(){
     while(t--){
         int num;
         scanf("%d",&num);
-        printf("%d\n",isprime(num));
+        fun(num);
     }
     return 0;
 }
