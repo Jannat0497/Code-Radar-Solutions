@@ -1,13 +1,11 @@
 #include <stdio.h>
-int main(){
-    int x,i=1,mark;
-    scanf("%d",&x);
-    mark=1<<(i-1);
-    if((x || mark)){
-    printf("Set");
-    }
-    else{
-    printf("Not Set");
+int main() {
+    int a;
+    scanf("%d",&a);
+    if(a&(1<<31)){
+        printf("Set\n");
+    }else{
+        printf("Not Set\n");
     }
     return 0;
 }
