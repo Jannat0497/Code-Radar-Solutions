@@ -1,21 +1,27 @@
 #include <stdio.h>
+int isPrime(){
+    if(num==2){
+        printf("1");
+    }
+    else if (num>2){
+        for(int i=2;i<=num/2;i++){
+            if (num%i==0){
+                printf("0");
+                return 0;
+            }
+        }    
+    }
+    else{
+        printf("1");
+    }
+}
 int main() {
     int t;
     scanf("%d", &t);
-    
-    int results[t];
-
     for (int i = 0; i < t; i++) {
         int num;
         scanf("%d", &num);
-        if (num % 2 == 0) {
-            results[i] = 1;
-        } else {
-            results[i] = 0;
-        }
-    }
-    for (int i = 0; i < t; i++) {
-        printf("%d\n", results[i]);
+        printf("%d\n",isPrime(num));
     }
     return 0;
 }
