@@ -9,7 +9,7 @@ int isprime(int num){
         if(num==0 || num==1 || e!=0){
             return 0;
         }
-        else if(num==2 ||e=0){
+        else if(num==2 ||e==0){
             return 1;
         }   
 }
