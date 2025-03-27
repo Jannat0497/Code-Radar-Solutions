@@ -14,7 +14,7 @@ void selectionSort(int *arr,int n){
             break;
         }
     }
-    printf("%d",a[k]);
+    printf("%d",arr[k]);
 }
 // int printArray(int *arr, int n){
 //     for(int i=0;i<n;i++){
