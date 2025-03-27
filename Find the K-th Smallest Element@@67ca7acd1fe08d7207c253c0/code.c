@@ -18,9 +18,10 @@ void selectionSort(int *arr,int n){
     int kthSmallest(int *arr,int n,int k){
     if(k<1){
         printf("-1");
+        break;
     }
     else{
-        printf("%d",arr[k]);
+        printf("%d\n",arr[k]);
     }
     }
 
