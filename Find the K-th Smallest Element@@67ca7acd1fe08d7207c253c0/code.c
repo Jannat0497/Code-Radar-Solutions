@@ -1,5 +1,5 @@
 #include <stdio.h>
-void selectionSort(int *arr,int n,int k){
+void selectionSort(int *arr,int n){
     int flag=0;
     for (int i=0;i<n-1;i++){
         for (int j=0;j<n-1-i;j++){
@@ -14,10 +14,16 @@ void selectionSort(int *arr,int n,int k){
             break;
         }
     }
-    int KthSmallest(int arr,int n,int k){
-    printf("%d",arr[k]);
-    }
 }
+    int KthSmallest(int arr,int n,int k){
+    if(k<1){
+        printf("-1");
+    }
+    else{
+        printf("%d",arr[k]);
+    }
+    }
+
 // int printArray(int *arr, int n){
 //     for(int i=0;i<n;i++){
 //         printf("%d ",arr[i]);
