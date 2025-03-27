@@ -1,6 +1,6 @@
 #include <stdio.h>
 int selectionSort(int *arr){
-   for (i=0;i<n;i++){
+   for (int i=0;i<n;i++){
       for (j=0;j<n-1-i;j++){
          if (num[j]>num[j+1]){
             a=num[i];
