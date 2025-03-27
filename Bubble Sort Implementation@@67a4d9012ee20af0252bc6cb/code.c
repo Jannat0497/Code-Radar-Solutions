@@ -23,11 +23,3 @@ int printArray(){
         printf("%d\t",arr[i]);
     }
 }
-int main(){
-    int n,flag=0,i,j;
-    scanf("%d",&n);
-    int arr[*n];
-    bubblesort(arr,n);
-    printArray(arr,n); 
-    return 0;
-}
