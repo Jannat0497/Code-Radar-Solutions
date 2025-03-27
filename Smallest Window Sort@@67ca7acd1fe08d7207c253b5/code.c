@@ -1,5 +1,5 @@
 #include<stdio.h>
-int findUnSortedarray(int *arr,int n){
+int findUnSortedSubarray(int *arr,int n){
     int myarr2[n];
     for(int i=0;i<n;i++){
         arr[i]=myarr2[i];
