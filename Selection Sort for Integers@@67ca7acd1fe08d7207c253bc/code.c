@@ -4,8 +4,8 @@ int selectionSort(int *arr,int n){
       for (int j=0;j<n;j++){
          if (arr[i]<arr[j]){
             int a=arr[i];
-            arr[j]=arr[i];
-            arr[i]=a;
+            arr[i]=arr[j];
+            arr[j]=a;
          }
       }
    }
