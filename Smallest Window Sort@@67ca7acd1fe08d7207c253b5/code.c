@@ -1,6 +1,6 @@
 #include<stdio.h>
 int findUnSortedarray(int *arr,int n){
-    int myarr2[a];
+    int myarr2[n];
     for(int i=0;i<n;i++){
         arr[i]=myarr[i];
     }
@@ -23,5 +23,5 @@ void bubbleSort(int *arr,int n){
     for(int i=0;i<n;i++){
         printf("%d ",arr[i]);
     }
-
+}
 }
