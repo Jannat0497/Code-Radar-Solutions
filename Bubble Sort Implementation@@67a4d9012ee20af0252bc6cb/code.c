@@ -1,5 +1,6 @@
 #include <stdio.h>
 void bubblesort(){
+    int n,temp,j;
     for(int i=0;i<n;i++){
         scanf("%d\t",&arr[i]);
     }
