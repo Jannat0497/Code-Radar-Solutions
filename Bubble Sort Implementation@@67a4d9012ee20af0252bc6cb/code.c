@@ -20,13 +20,13 @@ void bubblesort(){
 }
 int printArray(){
     for(i=0;i<n;i++){
-        printf("%d\t",arr[i]);
+        printf("%d\t",*arr[i]);
     }
 }
 int main(){
     int n,flag=0,i,j;
     scanf("%d",&n);
-    int arr[n];
+    int arr[*n];
     bubblesort();
     printArray(); 
     return 0;
