@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include<stdio.h>
+
 void bubbleSort(char *arr[],int n){
     int flag=0;
     for (int i=0;i<n-1;i++){
