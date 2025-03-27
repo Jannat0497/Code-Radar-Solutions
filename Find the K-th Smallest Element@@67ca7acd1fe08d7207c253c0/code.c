@@ -14,7 +14,7 @@ void selectionSort(int *arr,int n,int k){
             break;
         }
     }
-    int kthSmallest(int arr,int n,int k){
+    int KthSmallest(int arr,int n,int k){
     printf("%d",arr[k]);
     }
 }
